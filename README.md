@@ -42,3 +42,7 @@ form.xxx
 2.overflow属性
 3.添加类xxx.classList.add(xxx);
 4.删除类xxx.classList.remove(xxx);
+<h1>灵感料理</h1>
+1.使用marin:auto和display:flex;justify-content:cengter一样可以让元素水平居中
+2.页面使用innerHTML替换元素
+3.@media自适应标签

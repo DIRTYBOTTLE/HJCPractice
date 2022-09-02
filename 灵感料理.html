@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+    <title>灵感料理</title>
+    <link rel="stylesheet" href="./CSS/灵感料理.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- 标题 -->
+        <h1>灵感一刻</h1>
+        <!-- 搜索框 -->
+        <div class="flex">
+            <form class="flex" id="submit">
+                <input type="text" id="search" placeholder="搜索想要的料理吧" />
+                <button class="search-btn" type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+            <button class="random-btn" id="random">
+                <i class="fas fa-random"></i>
+            </button>
+        </div>
+        <div id="result-heading"></div>
+        <div id="meals" class="meals"></div>
+        <div id="single-meal"></div>
+    </div>
+
+    <script src="./JS/灵感料理.js"></script>
+
+</body>
+
+</html>
