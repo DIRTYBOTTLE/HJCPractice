@@ -46,3 +46,10 @@ form.xxx
 1.使用marin:auto和display:flex;justify-content:cengter一样可以让元素水平居中
 2.页面使用innerHTML替换元素
 3.@media自适应标签
+<h1>收支账单</h1>
+1.选择器
+.inc-exp-container>div<br>
+inc-exp-container>div:first-of-type<br>
+.money.plus<br>
+input[type='text']<br>
+input[type='number']<br>
