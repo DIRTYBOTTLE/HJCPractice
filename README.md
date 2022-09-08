@@ -53,3 +53,6 @@ inc-exp-container>div:first-of-type<br>
 .money.plus<br>
 input[type='text']<br>
 input[type='number']<br>
+<h1>音乐播放</h1>
+1.linear-gradient
+2.::after伪元素
